@@ -5,7 +5,7 @@ module.exports = (characters) => {
     let longitude = 0
     let presents = {}
 
-    _.set(presents, `[${latitude}][${longitude}].delivered`, true)
+    _.set(presents, `${latitude}, ${longitude}`, true)
 
     _.forEach(characters, (character) => {
         if (character === '^') {
@@ -18,8 +18,10 @@ module.exports = (characters) => {
             longitude--
         }
 
-        _.set(presents, `[${latitude}][${longitude}].delivered`, true)
+        _.set(presents, `${latitude}, ${longitude}`, true)
     })
+
+    console.log(presents)
 
     return _.size(presents)
 }

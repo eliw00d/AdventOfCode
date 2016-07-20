@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c960ce-9ffa-479c-9582-6e9b4153264c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/day/1/part/2.js" afterPath="$PROJECT_DIR$/src/main/day/1/part/2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/day/2/part/1.js" afterPath="$PROJECT_DIR$/src/main/day/2/part/1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/day/2/part/2.js" afterPath="$PROJECT_DIR$/src/main/day/2/part/2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/day/3/part/1.js" afterPath="$PROJECT_DIR$/src/main/day/3/part/1.js" />
     </list>
     <ignored path="AdventOfCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,18 +27,8 @@
       <file leaf-file-name="1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/day/3/part/1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/day/3/part/2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -753,12 +741,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469022741561</updated>
-      <workItem from="1469022743724" duration="2161000" />
+      <workItem from="1469022743724" duration="3600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2161000" />
+    <option name="totallyTimeSpent" value="3600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -856,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/day/3/part/1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
