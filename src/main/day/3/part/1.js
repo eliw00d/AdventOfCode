@@ -3,9 +3,9 @@ const _ = require('lodash')
 module.exports = (characters) => {
     let latitude = 0
     let longitude = 0
-    let presents = {}
+    let presentsDelivered = {}
 
-    _.set(presents, `${latitude}, ${longitude}`, true)
+    _.set(presentsDelivered, `${latitude}, ${longitude}`, true)
 
     _.forEach(characters, (character) => {
         if (character === '^') {
@@ -18,10 +18,8 @@ module.exports = (characters) => {
             longitude--
         }
 
-        _.set(presents, `${latitude}, ${longitude}`, true)
+        _.set(presentsDelivered, `${latitude}, ${longitude}`, true)
     })
 
-    console.log(presents)
-
-    return _.size(presents)
+    return _.size(presentsDelivered)
 }

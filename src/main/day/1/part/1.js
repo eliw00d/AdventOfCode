@@ -5,7 +5,7 @@ module.exports = (characters) => {
     _.forEach(characters, (character) => {
         if (character === '(') {
             floor++
-        } else {
+        } else if (character === ')') {
             floor--
         }
     })
