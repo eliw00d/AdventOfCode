@@ -5,9 +5,9 @@ module.exports = (lines) => {
     _.forEach(lines, (line) => {
         let dimensions = _.split(line, 'x')
 
-        let length = dimensions[0]
-        let width = dimensions[1]
-        let height = dimensions[2]
+        let length = _.toNumber(dimensions[0])
+        let width = _.toNumber(dimensions[1])
+        let height = _.toNumber(dimensions[2])
 
         let areas = [
             length * width,
@@ -15,7 +15,7 @@ module.exports = (lines) => {
             height * length
         ]
 
-        let surfaceArea = 2 * _.sum(areas)
+        let surfaceArea = _.sum(areas) * 2
         let smallestArea = _.min(areas)
 
         totalSurfaceArea += surfaceArea + smallestArea

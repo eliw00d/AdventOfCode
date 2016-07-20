@@ -1,24 +1,24 @@
 const _ = require('lodash')
 
 module.exports = (lines) => {
-    let totalSurfaceArea = 0
+    let totalLength = 0
     _.forEach(lines, (line) => {
         let dimensions = _.split(line, 'x')
 
-        let length = dimensions[0]
-        let width = dimensions[1]
-        let height = dimensions[2]
+        let length = _.toNumber(dimensions[0])
+        let width = _.toNumber(dimensions[1])
+        let height = _.toNumber(dimensions[2])
 
         let perimeters = [
-            (length + width) * 2,
-            (width + height) * 2,
-            (height + length) * 2
+            length + width + length + width,
+            width + height + width + height,
+            height + length + height + length
         ]
 
-        let surfaceArea = 2 * _.sum(areas)
-        let smallestArea = _.min(areas)
+        let volume = length * width * height
+        let smallestPerimeter = _.min(perimeters)
 
-        totalSurfaceArea += surfaceArea + smallestArea
+        totalLength += volume + smallestPerimeter
     })
-    return totalSurfaceArea
+    return totalLength
 }
